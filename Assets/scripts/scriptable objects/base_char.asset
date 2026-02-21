@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e830fecf36f2e16438fea1ccfb11343a, type: 3}
+  m_Name: base_char
+  m_EditorClassIdentifier: Assembly-CSharp::PartyMember
+  characterName: 
+  characterSprite: {fileID: 0}
+  statistiche:
+    arti:
+      head_health: 20
+      body_health: 100
+      left_arm_health: 40
+      right_arm_health: 40
+      left_leg_health: 50
+      right_leg_health: 50
+    armor: 0
+    agility: 10
+    cyber_corruption: 0
+    accuracy: 95
+    power: 20
+    moduli: []
