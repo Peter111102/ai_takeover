@@ -1,34 +1,31 @@
 fileFormatVersion: 2
-guid: d2afedc3ef2156e4ba7ade034fe23fe8
+guid: 0e49e0e441de6d544a5dee9ec51bb53b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9118744981133506145
-    second: cube2.0_0
+      213: -3448538072025513826
+    second: aborto_overworld_0
   - first:
-      213: 441671167971280829
-    second: cube2.0_1
+      213: -4001244391116839390
+    second: aborto_overworld_1
   - first:
-      213: 4520034186947862401
-    second: cube2.0_2
+      213: 6878052973721869967
+    second: aborto_overworld_2
   - first:
-      213: -5602141084495626109
-    second: cube2.0_3
+      213: -5499173649976702825
+    second: aborto_overworld_3
   - first:
-      213: 5935999284662614857
-    second: cube2.0_4
+      213: 6926472298068726589
+    second: aborto_overworld_4
   - first:
-      213: 2694240960606952843
-    second: cube2.0_5
+      213: -6635021707784720298
+    second: aborto_overworld_5
   - first:
-      213: 4731505642358634557
-    second: cube2.0_6
+      213: 4666385338062463229
+    second: aborto_overworld_6
   - first:
-      213: -2420054619935916184
-    second: cube2.0_7
-  - first:
-      213: -8635663861408499004
-    second: cube2.0_8
+      213: 2241618685388637369
+    second: aborto_overworld_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,10 +93,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 512
     resizeAlgorithm: 1
-    textureFormat: 4
-    textureCompression: 1
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,12 +108,12 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 12
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -137,199 +134,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cube2.0_0
+      name: aborto_overworld_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 15
-        height: 15
+        y: 8
+        width: 33
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f99492ab0c5b37180800000000000000
-      internalID: -9118744981133506145
+      spriteID: e90428605e45420d0800000000000000
+      internalID: -3448538072025513826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cube2.0_1
+      name: aborto_overworld_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1
-        width: 15
-        height: 15
+        x: 41
+        y: 8
+        width: 34
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db7c5725691212600800000000000000
-      internalID: 441671167971280829
+      spriteID: 226e4fffc69b878c0800000000000000
+      internalID: -4001244391116839390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cube2.0_2
+      name: aborto_overworld_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 1
-        width: 15
-        height: 15
+        x: 84
+        y: 8
+        width: 33
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18f16a515236abe30800000000000000
-      internalID: 4520034186947862401
+      spriteID: f8ed205fcb0c37f50800000000000000
+      internalID: 6878052973721869967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cube2.0_3
+      name: aborto_overworld_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 15
-        height: 16
+        x: 126
+        y: 7
+        width: 32
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38044057d523142b0800000000000000
-      internalID: -5602141084495626109
+      spriteID: 79843f283b20fa3b0800000000000000
+      internalID: -5499173649976702825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cube2.0_4
+      name: aborto_overworld_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
+        x: 168
+        y: 7
+        width: 32
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94bb94d26e7e06250800000000000000
-      internalID: 5935999284662614857
+      spriteID: d3358f86bd5cf1060800000000000000
+      internalID: 6926472298068726589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cube2.0_5
+      name: aborto_overworld_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1
-        width: 15
-        height: 15
+        x: 210
+        y: 7
+        width: 32
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8dd84401edd36520800000000000000
-      internalID: 2694240960606952843
+      spriteID: 6507c7e19eaabe3a0800000000000000
+      internalID: -6635021707784720298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cube2.0_6
+      name: aborto_overworld_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1
-        width: 15
-        height: 15
+        x: 251
+        y: 8
+        width: 34
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d38fa89205fa9a140800000000000000
-      internalID: 4731505642358634557
+      spriteID: df0ed4ccdb452c040800000000000000
+      internalID: 4666385338062463229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cube2.0_7
+      name: aborto_overworld_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1
-        width: 15
-        height: 15
+        x: 293
+        y: 8
+        width: 33
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86f3da9252d3a6ed0800000000000000
-      internalID: -2420054619935916184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cube2.0_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ca7115c875f72880800000000000000
-      internalID: -8635663861408499004
+      spriteID: 9b4c7785154db1f10800000000000000
+      internalID: 2241618685388637369
       vertices: []
       indices: 
       edges: []
@@ -338,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ef49dbd1b847b8944b33c471e5b0d5f8
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -346,19 +321,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      cube2.0_0: -9118744981133506145
-      cube2.0_1: 441671167971280829
-      cube2.0_2: 4520034186947862401
-      cube2.0_3: -5602141084495626109
-      cube2.0_4: 5935999284662614857
-      cube2.0_5: 2694240960606952843
-      cube2.0_6: 4731505642358634557
-      cube2.0_7: -2420054619935916184
-      cube2.0_8: -8635663861408499004
+      aborto_overworld_0: -3448538072025513826
+      aborto_overworld_1: -4001244391116839390
+      aborto_overworld_2: 6878052973721869967
+      aborto_overworld_3: -5499173649976702825
+      aborto_overworld_4: 6926472298068726589
+      aborto_overworld_5: -6635021707784720298
+      aborto_overworld_6: 4666385338062463229
+      aborto_overworld_7: 2241618685388637369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
