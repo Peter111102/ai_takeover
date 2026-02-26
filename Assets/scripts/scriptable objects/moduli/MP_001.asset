@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aef533b00b2f71540be3f8f7e612c034, type: 3}
-  m_Name: NewModule
+  m_Name: MP_001
   m_EditorClassIdentifier: Assembly-CSharp::ModuleSO
   id: MP_001
   nome: Simple_hack.exe
@@ -18,11 +18,9 @@ MonoBehaviour:
   icona: {fileID: 0}
   descrizioneUI: mostra le variabili del nemico con permessi guest
   isConsumable: 0
-  slotRequired: 0
-  tipoEffetto: 1
-  valoreBase: 0
-  hitRate: 95
+  tipiEffetto: 
+  DoannoBase: 0
+  percentualeHit: 0
   costoBatteria: 0
   costoCC: 10
-  costoSincronia: 0
   costoVita: 0

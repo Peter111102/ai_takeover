@@ -10,11 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88f8ae87f225e31439477af27999e156, type: 3}
-  m_Name: Database personaggi
+  m_Name: Database_enemy
   m_EditorClassIdentifier: Assembly-CSharp::Database
-  oggetti:
-  - {fileID: 11400000, guid: 997e1c49a3467634b826e65f5ded8574, type: 2}
-  - {fileID: 11400000, guid: 997e1c49a3467634b826e65f5ded8574, type: 2}
-  - {fileID: 11400000, guid: a078afb3dc8e0f346a35506454e75819, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  oggetti: []

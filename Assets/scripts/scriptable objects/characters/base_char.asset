@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e830fecf36f2e16438fea1ccfb11343a, type: 3}
   m_Name: base_char
   m_EditorClassIdentifier: Assembly-CSharp::PartyMember
-  characterName: 
+  id: CH_001
+  characterName: sfsfsf
   characterSprite: {fileID: 0}
   statistiche:
     arti:

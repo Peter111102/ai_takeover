@@ -16,11 +16,17 @@ public class Character_player : Character_padre {
             stamina.Inizializza();
         }
 
-        // Inizializza il party system (se necessario)
-        if (partySystem == null) {
-            partySystem = new PartySystem();
-            partySystem.AggiungiMembro(personaggio_selezionato_inizialmente); // Esempio di aggiunta membro
+        if (partySystem == null)
+        {
+            Debug.LogError("PartySystem non assegnato!");
+            return;
         }
+
+        // Aggiungi il personaggio iniziale al party
+        if(partySystem.NumberOfMembers() == 0 && personaggio_selezionato_inizialmente != null) {
+            partySystem.AggiungiMembro(personaggio_selezionato_inizialmente);
+        }
+
     }
 
     protected override void Update() {
