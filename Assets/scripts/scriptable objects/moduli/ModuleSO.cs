@@ -12,11 +12,6 @@ public class ModuleSO : ElementoGDR
 
     [Header("Rarità")]
     public RaritaModulo rarita; // rarità del modulo, da Comune a Leggendario, per influenzare drop rate e potenza
-    
-    [Header("Drop")]
-    [Range(0f, 100f)]
-    public float dropChance = 100f; // 1 = 100%, 0.1 = 10%
-
 
     [Header("Visualizzazione")]
     public Sprite icona;
